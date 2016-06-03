@@ -1,0 +1,118 @@
+<header>
+    <ul>
+      <li></li>
+      <li>
+        <b>推荐</b>
+      </li>
+      <li action-type="newsblu"><img src="/unique/images/com_news.png"/></li>
+    </ul>
+  </header>
+  <section id="index-scroll" spa-widget="scroll">
+    <div>
+    	<div class="lunbo">
+    		<div class="swiper-container">
+				    <div class="swiper-wrapper">
+				        <div class="swiper-slide">
+				        	<img src="/unique/images/banner1.jpg"/>
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="/unique/images/banner2.jpg"/>
+				        </div>
+				        <div class="swiper-slide">
+				        	<img src="/unique/images/banner3.jpg"/>
+				        </div>
+				    </div>
+				    <!-- 如果需要分页器 -->
+				    <div class="swiper-pagination"></div>
+				</div>
+    	</div>
+    	<div class="slide_four" spa-widget="scroll" data-scroll-id="indexScroll">
+    		<div class="four-ul">
+    			<div class="four1"><img src="/unique/images/nav1.jpg"/></div
+    			><div class="four1"><img src="/unique/images/nav2.jpg"/></div
+    			><div class="four1"><img src="/unique/images/nav1.jpg"/></div
+    			><div class="four1"><img src="/unique/images/nav2.jpg"/></div>
+    		</div>
+    	</div>
+    	<div class="ul_title">
+    		<b></b>
+    		<b>每日精选内容</b>
+    		<b></b>
+    	</div>
+      <ul>
+      	<li></li>
+        <li>
+          <i><img src="/unique/images/ph1.jpg" /></i>
+          <div class="king">
+          	<b>Jawbreaker魔法球带给你不一样的体验，哇咔咔</b>
+          	<p>
+          		<span class="redfont">￥16.8</span>
+          		<span class="grayfont"><i class="yo-ico">&#xe660;</i><em>0</em></span>
+          	</p>
+          </div>
+        </li>
+        <li></li>
+       <li>
+          <i><img src="/unique/images/ph1.jpg" /></i>
+          <div class="king">
+          	<b>Jawbreaker魔法球带给你不一样的体验，哇咔咔</b>
+          	<p>
+          		<span class="redfont">￥16.8</span>
+          		<span class="grayfont"><i class="yo-ico">&#xe660;</i><em>0</em></span>
+          	</p>
+          </div>
+        </li>
+        <li></li>
+      </ul>
+      <ul>
+      	<li></li>
+        <li>
+          <i><img src="/unique/images/ph1.jpg" /></i>
+          <div class="king">
+          	<b>Jawbreaker魔法球带给你不一样的体验，哇咔咔</b>
+          	<p>
+          		<span class="redfont">￥16.8</span>
+          		<span class="grayfont"><i class="yo-ico">&#xe660;</i><em>0</em></span>
+          	</p>
+          </div>
+        </li>
+        <li></li>
+       <li>
+          <i><img src="/unique/images/ph1.jpg" /></i>
+          <div class="king">
+          	<b>Jawbreaker魔法球带给你不一样的体验，哇咔咔</b>
+          	<p>
+          		<span class="redfont">￥16.8</span>
+          		<span class="grayfont"><i class="yo-ico">&#xe660;</i><em>0</em></span>
+          	</p>
+          </div>
+        </li>
+        <li></li>
+      </ul>
+      <ul>
+      	<li></li>
+        <li>
+          <i><img src="/unique/images/ph1.jpg" /></i>
+          <div class="king">
+          	<b>Jawbreaker魔法球带给你不一样的体验，哇咔咔</b>
+          	<p>
+          		<span class="redfont">￥16.8</span>
+          		<span class="grayfont"><i class="yo-ico">&#xe660;</i><em>0</em></span>
+          	</p>
+          </div>
+        </li>
+        <li></li>
+       <li>
+          <i><img src="/unique/images/ph1.jpg" /></i>
+          <div class="king">
+          	<b>Jawbreaker魔法球带给你不一样的体验，哇咔咔</b>
+          	<p>
+          		<span class="redfont">￥16.8</span>
+          		<span class="grayfont"><i class="yo-ico">&#xe660;</i><em>0</em></span>
+          	</p>
+          </div>
+        </li>
+        <li></li>
+      </ul>
+    </div>
+  </section>
