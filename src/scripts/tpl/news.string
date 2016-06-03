@@ -1,0 +1,23 @@
+<div class="m-news">
+  <header>
+    <ul>
+      <li action-type="newshide"><img src="/unique/images/com_arrow_left.png"/></li>
+      <li>
+        <b>消息</b>
+      </li>
+      <li></li>
+    </ul>
+  </header>
+  <section>
+  	<div>
+  		<img src="/unique/images/com_service.png"/>
+  	</div>
+  	<div>
+  		<span>客服消息</span>
+  		<p>未有客服消息</p>
+  	</div>
+  	<div>
+  		1分钟内
+  	</div>
+  </section>
+</div>

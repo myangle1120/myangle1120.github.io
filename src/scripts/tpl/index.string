@@ -1,0 +1,24 @@
+ <div class="m-index">
+  <div class="m-index-container">
+  </div>
+  <footer>
+    <ul>
+      <li class="active" action-type="switch.view" data-tag="home">
+        <i><img src="/unique/images/tab_recommend_pre.png" /></i>
+        <b>推荐</b>
+      </li> 
+      <li action-type="switch.view" data-tag="classify">
+        <i><img src="/unique/images/tab_favorites.png" /></i>
+        <b>分类</b>
+      </li>
+      <li>
+        <i><img src="/unique/images/tab_classification.png" /></i>
+        <b>收藏夹</b>
+      </li>
+      <li action-type="switch.view"  data-tag="my">
+        <i><img src="/unique/images/tab_me.png" /></i>
+        <b>我</b>
+      </li>
+    </ul>
+  </footer>
+</div>
