@@ -1,10 +1,10 @@
-require('./lib/spa.min.js');
-require('./views/guide.js');
-require('./views/news.js');
-require('./views/home.js');
-require('./views/classify.js');
-require('./views/my.js');
-require('./views/index.js');
+require('/lib/spa.min.js');
+require('/views/guide.js');
+require('/views/news.js');
+require('/views/home.js');
+require('/views/classify.js');
+require('/views/my.js');
+require('/views/index.js');
 SPA.config({
 	indexView:'guide'
 })
