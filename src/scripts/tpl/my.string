@@ -1,3 +1,22 @@
-<div class="">
-  我的
+<div id="m-my">
+  <header>
+    <ul>
+      <li><img src="/unique/images/bi.jpg"/></li>
+      <li>
+      </li>
+      <li action-type="newsblu"><img src="/unique/images/whitenew.jpg"/></li>
+    </ul>
+  </header>
+  <section spa-widget="scroll">
+    <div class="">
+      <div class="blaimg">
+      </div>
+      <div class="mylist">
+        <img src="/unique/images/mylist.jpg" alt="" />
+      </div>
+      <div class="shezhi">
+        <img src="/unique/images/shezhi.jpg" alt="" />
+      </div>
+    </div>
+  </section>
 </div>

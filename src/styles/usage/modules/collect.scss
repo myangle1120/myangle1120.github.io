@@ -1,0 +1,149 @@
+#m-collect{
+  section{
+    @include flex();
+    width: 100%;
+    background: $section-color;
+    @include flexbox();
+    @include flex-direction(column);
+    overflow:hidden;
+    .collect_box{
+      height: 3.6rem;
+      width: 100%;
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(center);
+      div{
+        width: 1.4rem;
+        height: 1.4rem;
+        @include flexbox();
+        @include flex-direction(column);
+        i{
+          @include flex();
+          width: 100%;
+          height: auto;
+          padding: 0 .15rem;
+          @include box-sizing(border-box);
+          img{
+            width: 100%;
+          }
+        }
+        p{
+          height: .5rem;
+          line-height: .5rem;
+          text-align: center;
+          font-size: 16px;
+          color: #bbbbbb;
+        }
+      }
+    }
+    .hotcollect_tit{
+      width: 100%;
+      height: .5rem;
+      padding: 0 .15rem;
+      margin-bottom: .1rem;
+      @include box-sizing(border-box);
+      ul{
+        @include flexbox();
+        width: 100%;
+        height: 100%;
+        li:nth-child(2n+1){
+          width: 1.2rem;
+          height: 75%;
+          @include border(0 0 1px 0,#f66,solid);
+        }
+        li:not(:nth-child(2n+1)){
+          @include flex();
+          @include flex-direction(column);
+          height: 100%;
+          width: 100%;
+          i,b{
+            @include flex();
+            width: 100%;
+            height: 50%;
+            @include flexbox();
+            @include align-items(center);
+            @include justify-content(center);
+          }
+          i{
+            span{
+              width: .3rem;
+              height: .15rem;
+              font-size: 12px;
+              background: #f66;
+              color: #fff;
+              line-height: .15rem;
+              text-align: center;
+              @include border(1px,transparent,solid,10px);
+            }
+          }
+          b{
+            color: #f66;
+          }
+        }
+      }
+    }
+    .hotcollect_con{
+      @include flex();
+      width: 100%;
+      overflow: hidden;
+      padding: 0 .1rem;
+      @include box-sizing(border-box);
+      ul{
+        height: 2.43rem;
+        width: 100%;
+        margin-bottom: .1rem;
+        @include flexbox();
+        li:nth-child(2){
+          width: .12rem;
+        }
+        li:not(:nth-child(2)){
+          @include flex();
+          img{
+            width: 100%;
+          }
+          div{
+            height: .7rem;
+            width: 100%;
+            background: $base-color;
+            padding: 0 .1rem;
+            @include box-sizing(border-box);
+            p{
+              height: .45rem;
+              width: 100%;
+              font-size: 14px;
+              line-height: .45rem;
+              overflow: hidden;
+              text-overflow: ellipsis;
+              white-space: nowrap;
+            }
+            i{
+              height: .25rem;
+              @include flexbox();
+              span{
+                i,b{
+                  display: inline-block;
+                  font-size: 12px;
+                }
+              }
+              span:nth-child(1){
+                @include flex(3);
+                color: #f66;
+              }
+              span:nth-child(2){
+                @include flex(1);
+                b{
+                  font-weight: normal;
+                }
+                i{
+                  padding-top: 4px;
+                  @include box-sizing(border-box);
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+}

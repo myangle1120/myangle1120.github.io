@@ -1,0 +1,129 @@
+.m-login{
+  height: 100%;
+  width: 100%;
+  background:#fff;
+  @include flexbox();
+  @include flex-direction(column);
+  & > * {
+    width: 100%;
+  }
+  header{
+    height: .44rem;
+    width: 100%;
+    background:#fff;
+    @include flexbox();
+    em{
+        @include flex();
+        height: .44rem;
+    }
+    i{
+      width: .5rem;
+      height: .44rem;
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(center);
+      img{
+        width: .23rem;
+        height: .23rem;
+      }
+    }
+  }
+  section{
+    @include flex();
+    @include flexbox();
+    @include flex-direction(column);
+    width: 100%;
+
+    .logo{
+      background:#fff;
+      height: auto;
+      width: 100%;
+      @include flexbox();
+      @include align-items();
+      @include justify-content();
+      img{
+        height: 100%;
+      }
+    }
+    article{
+      @include flex();
+      width: 100%;
+      padding: 0 .4rem;
+      background:#fff;
+      @include box-sizing(border-box);
+      div{
+        width: 100%;
+        height: .35rem;
+        @include border(0 0 1px 0,#444444,solid);
+        margin-bottom: .2rem;
+        @include flexbox();
+        i{
+          width: .4rem;
+          line-height: .35rem;
+          text-align: center;
+        }
+        input[type='text']{
+          border: none;
+          @include flex();
+        }
+      }
+      ul.w7{
+          background:#fff;
+        width: 100%;
+        margin-bottom: .25rem;
+        @include flexbox();
+        li{
+          &:nth-child(2n+1){
+            width: .7rem;
+            font-size: 12px;
+          }
+          &:not(:nth-child(2n+1)){
+            @include flex();
+          }
+        }
+      }
+      p{
+        width: 100%;
+        height: .40rem;
+        padding: 0 .15rem;
+        @include box-sizing(border-box);
+        input[type='button']{
+          width:100%;
+          height: 100%;
+          @include border(1px,transparent,solid,20px);
+          border: 0;
+          color:#fff;
+          font-weight: 900;
+          font-size: 16px;
+        }
+      }
+    }
+  }
+  footer{
+    height: .95rem;
+    ul{
+      @include flexbox();
+      width: 100%;
+      height: 100%;
+      li {
+        &:nth-child(2n){
+          font-size: .35rem;
+          line-height: .6rem;
+          img{
+            height: 100%;
+          }
+        }
+        &:nth-child(2){
+          font-size: .45rem;
+          color: #68a5e1;
+        }
+        &:nth-child(4){
+          color: #7eb318;
+        }
+        &:not(:nth-child(2n)){
+          @include flex();
+        }
+      }
+    }
+  }
+}

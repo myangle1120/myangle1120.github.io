@@ -3,7 +3,7 @@
   height: 100%;
   @include flexbox();
   @include flex-direction(column);
-  .m-index-container{
+  >div{
       @include flex();
       width:100%;
       position: relative;
@@ -56,9 +56,9 @@
                     img{
                        width:100%;
                        height: 100%;
-                       display: block; 
+                       display: block;
                     }
-                }  
+                }
             }
             .slide_four{
                 @include box-sizing(border-box);
@@ -108,21 +108,24 @@
                         color:#666;
                     }
                 }
-                
+
             }
             ul {
               width: 100%;
               background-color:#eee;
               @include flexbox();
               li {
-                
+
                 margin-bottom: .1rem;
+                &.hidden {
+                  visibility: hidden;
+                }
                 &:nth-child(1),&:nth-child(3),&:nth-child(5) {
                   width: .1rem;
                 }
                 &:nth-child(2),&:nth-child(4) {
                   @include flex();
-                  
+
                 }
                 i, b ,em{
                   display: block;
@@ -146,7 +149,7 @@
                       font-size: 12px;
                     }
                     p{
-                       width: 100%; 
+                       width: 100%;
                        height:.26rem;
                        @include flexbox();
                        .redfont{
@@ -163,28 +166,28 @@
                            @include flexbox();
                            i,em{
                              height:.26rem;
-                             @include flex(1); 
-                             text-align: center; 
+                             @include flex(1);
+                             text-align: center;
                              font-size: .12rem;
-                            line-height: .13rem;
+                            line-height: .14rem;
                            }
                            i{
                                color: #b4b4b4;
                            }
                            em{
                                color:#8d8d8d ;
-                              line-height: .1rem;  
+                              line-height: .13rem;
                            }
                        }
                     }
                 }
-                
+
               }
             }
           }
       }
   }
-  footer {
+  >footer {
       position: relative;
       z-index: 99999;
       width:100%;
@@ -201,6 +204,30 @@
         @include flex();
         @include flexbox();
         @include flex-direction(column);
+        &:nth-child(1).active i em{
+          background: url(/unique/images/tab_recommend_pre.png)no-repeat center center;
+        }
+        &:nth-child(2).active i em{
+          background: url(/unique/images/tab_favorites_pre.png)no-repeat center center;
+        }
+        &:nth-child(3).active i em{
+          background: url(/unique/images/tab_classification_pre.png)no-repeat center center;
+        }
+        &:nth-child(4).active i em{
+          background: url(/unique/images/tab_me_pre.png)no-repeat center center;
+        }
+        &:nth-child(1) i em{
+          background: url(/unique/images/tab_recommend.png)no-repeat center center;
+        }
+        &:nth-child(2) i em{
+          background: url(/unique/images/tab_favorites.png)no-repeat center center;
+        }
+        &:nth-child(3) i em{
+          background: url(/unique/images/tab_classification.png)no-repeat center center;
+        }
+        &:nth-child(4) i em{
+          background: url(/unique/images/tab_me.png)no-repeat center center;
+        }
         &.active b{
           color: #3c3c3c !important;
         }
@@ -215,7 +242,7 @@
           @include align-items(center);
           @include justify-content(center);
           @include flex-direction(column);
-          img{
+          em{
               display: block;
               width:.2rem;
               height:.2rem;

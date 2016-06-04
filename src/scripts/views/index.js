@@ -9,29 +9,25 @@ SPA.defineView('index',{
 	modules:[{
 		name:'content',
 		container:'.m-index-container',
-		views:['home','classify','my'],
+		views:['home','classify','login','my'],
 		defaultTag:'home'
 	}],
+	init: {
+		indexSwiper: null,
+		setActive: function (obj) {
+			obj.addClass('active').siblings().removeClass('active');
+
+		}
+	},
 	bindActions:{
-		
+		'newsblu':function(){
+			SPA.open('news');
+		},
 		'switch.view':function(e){
+			console.log(e);
 			this.modules.content.launch(e.data.tag);
+			this.setActive($(e.el));
 		}
 	}
-	
+
 });
-window.onload = function () {
-//var myScroll = new IScroll('#index-scroll');
-
-var mySwiper = new Swiper ('.swiper-container', {
-    direction: 'horizontal',
-    loop: true,
-    autoplay:1500,
-    autoplayDisableOnInteraction : false,
-    // 如果需要分页器
-    pagination: '.swiper-pagination',
-});
-
-
-
-};
