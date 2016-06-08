@@ -8,147 +8,44 @@
       <li action-type="newsblu"><img src="/unique/images/com_news.png"/></li>
     </ul>
   </header>
-  <section  id="collect-scroll" spa-widget="scroll">
+  <section id="index-scroll" spa-widget="scroll">
     <div>
-      <div class="collect_box">
-        <div class="">
-          <i><img src="/dupin/images/collect/noProBg.jpg" alt="" /></i>
-          <p>
-            还没有任何收藏哦
-          </p>
-        </div>
-      </div>
-      <div class="hotcollect_tit">
-        <ul>
-          <li></li>
-          <li>
-            <i><span>HOT</span></i>
-            <b>热门收藏</b>
-          </li>
-          <li></li>
-        </ul>
-      </div>
-      <div class="hotcollect_con">
-        <ul>
-          <li>
-            <img src="/dupin/images/home/con_list1.jpg" alt="" />
-            <div>
-              <p>
-                刻印文字 钛钢 520心型U盘 精致小巧 值得购买
-              </p>
-              <i>
-                <span>
-                  <i>￥</i>
-                  <b>89</b>
-                </span>
-                <span>
-                  <i class="yo-ico">&#xe660;</i>
-                  <b>0</b>
-                </span>
-              </i>
-            </div>
-          </li>
-          <li></li>
-          <li>
-            <img src="/dupin/images/home/con_list2.jpg" alt="" />
-            <div>
-              <p>
-                刻印文字 钛钢 520心型U盘 精致小巧 值得购买
-              </p>
-              <i>
-                <span>
-                  <i>￥</i>
-                  <b>89</b>
-                </span>
-                <span>
-                  <i class="yo-ico">&#xe660;</i>
-                  <b>0</b>
-                </span>
-              </i>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <img src="/dupin/images/home/con_list1.jpg" alt="" />
-            <div>
-              <p>
-                刻印文字 钛钢 520心型U盘 精致小巧 值得购买
-              </p>
-              <i>
-                <span>
-                  <i>￥</i>
-                  <b>89</b>
-                </span>
-                <span>
-                  <i class="yo-ico">&#xe660;</i>
-                  <b>0</b>
-                </span>
-              </i>
-            </div>
-          </li>
-          <li></li>
-          <li>
-            <img src="/dupin/images/home/con_list2.jpg" alt="" />
-            <div>
-              <p>
-                刻印文字 钛钢 520心型U盘 精致小巧 值得购买
-              </p>
-              <i>
-                <span>
-                  <i>￥</i>
-                  <b>89</b>
-                </span>
-                <span>
-                  <i class="yo-ico">&#xe660;</i>
-                  <b>0</b>
-                </span>
-              </i>
-            </div>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <img src="/dupin/images/home/con_list1.jpg" alt="" />
-            <div>
-              <p>
-                刻印文字 钛钢 520心型U盘 精致小巧 值得购买
-              </p>
-              <i>
-                <span>
-                  <i>￥</i>
-                  <b>89</b>
-                </span>
-                <span>
-                  <i class="yo-ico">&#xe660;</i>
-                  <b>0</b>
-                </span>
-              </i>
-            </div>
-          </li>
-          <li></li>
-          <li>
-            <img src="/dupin/images/home/con_list2.jpg" alt="" />
-            <div>
-              <p>
-                刻印文字 钛钢 520心型U盘 精致小巧 值得购买
-              </p>
-              <i>
-                <span>
-                  <i>￥</i>
-                  <b>89</b>
-                </span>
-                <span>
-                  <i class="yo-ico">&#xe660;</i>
-                  <b>0</b>
-                </span>
-              </i>
-            </div>
-          </li>
-        </ul>
-      </div>
+    	<div class="noshoucang">
+         <div class="yellowcir">
+            <img src="/unique/images/yellowegg.jpg" alt="" />
+            <i>还没有任何收藏哦</i>
+         </div>
+    	</div>
+    	<div class="ul_day">
+    		<b></b>
+    		<b><img src="/unique/images/redfont.jpg" alt="" /></b>
+    		<b></b>
+    	</div>
+      <ul ms-repeat-value="livelist">
+      	<li></li>
+        <li>
+          <i><img ms-src="value[0].imgSrc" /></i>
+          <div class="king">
+          	<b ms-text="value[0].title"></b>
+          	<p>
+          		<span ms-text="value[0].money"  class="redfont"></span>
+          		<span class="grayfont"><i class="yo-ico">&#xe660;</i><em ms-text="value[0].num"></em></span>
+          	</p>
+          </div>
+        </li>
+        <li></li>
+       <li ms-class-hidden="!value[1]">
+          <i><img  ms-src="value[1].imgSrc" /></i>
+          <div class="king">
+          	<b  ms-text="value[1].title"></b>
+          	<p>
+          		<span class="redfont" ms-text="value[1].money"></span>
+          		<span class="grayfont"><i class="yo-ico">&#xe660;</i><em ms-text="value[1].num"></em></span>
+          	</p>
+          </div>
+        </li>
+        <li></li>
+      </ul>
     </div>
   </section>
-
-
 </div>

@@ -1,7 +1,7 @@
 <div class="m-login">
   <header>
     <em></em>
-    <i><img src="/unique/images/red.jpg" alt="" /></i>
+    <i action-type="hidelogin"><img src="/unique/images/red.jpg" alt="" /></i>
   </header>
   <section >
     <div class="logo">

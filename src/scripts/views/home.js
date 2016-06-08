@@ -7,12 +7,17 @@ SPA.defineView('home',{
       vm.livelist = [];
     }
   }],
+	bindActions:{
+		'godetail':function(){
+			SPA.open('detail');
+		}
+	},
 	bindEvents:{
 		'show':function(){
 			var vm = this.getVM();
 			$.ajax({
 				//url: '/api/getlivelist.php',
-				url:'/unique/mock/livelist.json',
+				url: '/unique/mock/livelist.json',
 				success: function (res) {
 					var data = res.data;
 					var tempArr = [];

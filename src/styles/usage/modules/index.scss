@@ -253,6 +253,7 @@
           line-height:.18rem ;
           font-size: .12rem;
           text-align: center;
+          @include transform(scale(0.8) translate(-1%,5%));
         }
       }
     }

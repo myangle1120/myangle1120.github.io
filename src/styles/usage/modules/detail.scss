@@ -1,0 +1,209 @@
+#m-classify {
+  width: 100%;
+  background: #eee;
+  @include flexbox();
+  @include flex-direction(column);
+  & > * {
+    width: 100%;
+  }
+  header {
+    background: #fff;
+    height: .44rem;
+    @include box-sizing(border-box);
+    @include border(0 0 1px 0, #ececec);
+    ul {
+      width: 100%;
+      height: 100%;
+      @include flexbox();
+      li:not(:nth-child(2)) {
+        width: .52rem;
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        img{
+            width: .1rem;
+            height: .16rem;
+
+        }
+      }
+      li:nth-child(2) {
+        @include flex();
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        b{
+          display: block;
+          width: 100%;
+          height:.44rem;
+          line-height:.44rem;
+          text-align: center;
+          font-size: .16rem;
+          color: #444;
+        }
+      }
+      li:nth-child(3){
+        img{
+            width: .2rem;
+            height: .17rem;
+
+        }
+      }
+    }
+  }
+  section {
+    @include flex();
+    width: 100%;
+    background: #f1f1f1;
+    // overflow: hidden;
+    .bigimg{
+      height:3.5rem;
+      width: 100%;
+      background: #fff;
+      @include box-sizing(border-box);
+      padding-bottom: .3rem;
+      img{
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .allfont{
+      background: #fff;
+      height: .32rem;
+      width: 100%;
+      text-indent: .13rem;
+      font-size: .15rem;
+      color: #323232;
+    }
+    .redimg{
+      background: #fff;
+      height: .28rem;
+      width: 100%;
+      @include box-sizing(border-box);
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(center);
+      padding-left: .13rem;
+      b,i,img{
+        display: block;
+      }
+      .moneyred{
+        height: .28rem;
+        width: .6rem;
+        line-height: .28rem;
+        color: #f56b68;
+        font-size: .12rem;
+        text-align: left;
+      }
+      img{
+        width: .3rem;
+        height: .15rem;
+      }
+      i{
+        @include flex();
+          height: .28rem;
+      }
+    }
+    .sweetfont{
+        background: #fff;
+        @include box-sizing(border-box);
+        width: 100%;
+        padding: .1rem;
+        font-size: .12rem;
+        color: #a9a9a9;
+    }
+    nav{
+      width: 100%;
+      height: .45rem;
+      @include box-sizing(border-box);
+      @include border(0 0 1px 0, #e5e5e5);
+      margin-top: .1rem;
+      background: #fff;
+      text-align: center;
+      line-height:.45rem;
+      font-size: .14rem;
+      color:#ff6666;
+
+    }
+    .jiatu{
+      width: 100%;
+      img{
+        width: 100%;
+      }
+    }
+  }
+  .lastul{
+    background: #fff;
+    width: 100%;
+    height: .44rem;
+    @include flexbox();
+    @include box-sizing(border-box);
+    @include border(1px 0 0  0, #e7e7e7);
+    li:nth-child(1),li:nth-child(3){
+      @include flex(3);
+      @include flexbox();
+      @include flex-direction(column);
+      height: .44rem;
+      i{
+        @include flex(1);
+        width: 100%;
+        @include flexbox();
+        @include align-items(center);
+        @include justify-content(center);
+        img{
+          width: .2rem;
+          height: .2rem;
+        }
+      }
+      b{
+        width: 100%;
+        height: .16rem;
+        line-height: .14rem;
+        text-align: center;
+        color: #868686;
+        font-size: .12rem;
+      }
+    }
+
+    li:nth-child(2){
+      width: .01rem;
+      height: .44rem;
+      @include flexbox();
+      @include align-items(center);
+      @include justify-content(center);
+      b{
+        @include box-sizing(border-box);
+        @include border( 0 1px 0  0, #e0e0e0);
+        width: 1px;
+        height: .2rem;
+      }
+    }
+    li:nth-child(4){
+      @include flex(5);
+      height: .44rem;
+      background: #fd6766;
+      text-align: center;
+      line-height: .44rem;
+      color: #fff;
+      font-size: .14rem;
+    }
+  }
+}
+
+spa-view > nav {
+  width: 100%;
+  height: .45rem;
+  @include box-sizing(border-box);
+  @include border(0 0 1px 0, #e5e5e5);
+  margin-top: .1rem;
+  background: #fff;
+  text-align: center;
+  line-height:.45rem;
+  font-size: .14rem;
+  color:#ff6666;
+  &.fix{
+    position: fixed !important;
+    width: 100%;
+    top:.44rem;;
+    margin-top: 0;
+  }
+}

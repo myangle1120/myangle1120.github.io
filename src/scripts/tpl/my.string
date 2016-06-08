@@ -1,7 +1,7 @@
 <div id="m-my">
   <header>
     <ul>
-      <li><img src="/unique/images/bi.jpg"/></li>
+      <li action-type="gologin"><img src="/unique/images/bi.jpg"/></li>
       <li>
       </li>
       <li action-type="newsblu"><img src="/unique/images/whitenew.jpg"/></li>
@@ -12,10 +12,47 @@
       <div class="blaimg">
       </div>
       <div class="mylist">
-        <img src="/unique/images/mylist.jpg" alt="" />
+        <div class="navlist">
+            <ul>
+              <li><img src="/unique/images/s1.jpg" alt="" /><b>待付款</b></li>
+              <li><img src="/unique/images/s2.jpg" alt="" /><b>待发货</b></li>
+              <li><img src="/unique/images/s3.jpg" alt="" /><b>待收货</b></li>
+              <li><img src="/unique/images/s4.jpg" alt="" /><b>已完成</b></li>
+              <li><img src="/unique/images/s10.jpg" alt="" /><b>收货</b></li>
+            </ul>
+            <div class="ying">
+              <p>
+                <img src="/unique/images/s5.jpg" alt="" />
+              </p>
+              <p>
+                我的订单
+              </p>
+              <p>
+                查看全部订单
+              </p>
+              <p>
+                  <img src="/unique/images/s9.jpg" alt="" />
+              </p>
+            </div>
+        </div>
       </div>
       <div class="shezhi">
-        <img src="/unique/images/shezhi.jpg" alt="" />
+        <i><img src="/unique/images/s6.jpg" alt="" /></i>
+        <p>
+          <b>常见问题</b><em><img src="/unique/images/s9.jpg" alt="" /></em>
+        </p>
+      </div>
+      <div class="shezhi">
+        <i><img src="/unique/images/s7.jpg" alt="" /></i>
+        <p>
+          <b>意见反馈</b><em><img src="/unique/images/s9.jpg" alt="" /></em>
+        </p>
+      </div>
+      <div class="shezhi">
+        <i><img src="/unique/images/s8.jpg" alt="" /></i>
+        <p>
+          <b>设置</b><em><img src="/unique/images/s9.jpg" alt="" /></em>
+        </p>
       </div>
     </div>
   </section>

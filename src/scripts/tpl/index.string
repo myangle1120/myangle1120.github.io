@@ -11,7 +11,7 @@
         <i><em></em></i>
         <b>分类</b>
       </li >
-      <li action-type="switch.view"  data-tag="login">
+      <li action-type="switch.view"  data-tag="collect">
         <i><em></em></i>
         <b>收藏夹</b>
       </li>

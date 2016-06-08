@@ -41,7 +41,7 @@
     	</div>
       <ul ms-repeat-value="livelist">
       	<li></li>
-        <li>
+        <li action-type="godetail">
           <i><img ms-src="value[0].imgSrc" /></i>
           <div class="king">
           	<b ms-text="value[0].title"></b>

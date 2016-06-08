@@ -1,0 +1,47 @@
+<div id="m-classify">
+  <header id="x">
+    <ul>
+      <li action-type="newshide"><img src="/unique/images/com_arrow_left.png"/></li>
+      <li>
+        <b>商品详情</b>
+      </li>
+      <li><img src="/unique/images/back.jpg"/></li>
+    </ul>
+  </header>
+  <section spa-widget="scroll" data-scroll-id="searchScroll" class="m-search">
+     <div class="">
+       <div class="bigimg">
+          <img src="/unique/images/ph1.jpg" alt="" />
+       </div>
+       <p class="allfont">Jawbreker魔法球糖果</p>
+       <p class="redimg">
+         <b class="moneyred">￥16.8</b><img src="/unique/images/baoyou.jpg" alt="" />
+         <i></i>
+       </p>
+       <p class="sweetfont">
+          这个糖非常的硬，不能咬不能吞不能啃更不能嚼！只有舔！！一次性绝对舔不完，只要你静置几秒钟之后表面就会干的和新的一样！完全看不出舔过的痕迹。要问我这个糖有没有被别人舔过？呵呵。。
+       </p>
+       <nav class="tuwen">
+
+           图文介绍
+
+       </nav>
+       <div class="jiatu" ms-repeat-value="livelist">
+          <img ms-src="value.imgSrc" alt="" />
+       </div>
+     </div>
+
+  </section>
+  <ul class="lastul">
+    <li>
+      <i><img src="/unique/images/heart1.jpg" alt="" /></i>
+      <b>0</b>
+    </li>
+    <li><b></b></li>
+    <li>
+      <i><img src="/unique/images/heart2.jpg" alt="" /></i>
+      <b>客服</b>
+    </li>
+    <li action-type="gologin">立即购买</li>
+  </ul>
+</div>

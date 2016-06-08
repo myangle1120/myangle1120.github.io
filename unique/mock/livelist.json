@@ -80,5 +80,32 @@
       "money":45,
       "num":13
     }
-  ]
+  ],
+  "data1":[
+  {
+    "imgSrc":"/unique/images/king1.jpg"
+  },
+  {
+    "imgSrc":"/unique/images/king2.jpg"
+  },
+  {
+    "imgSrc":"/unique/images/king3.jpg"
+  },
+  {
+    "imgSrc":"/unique/images/king4.jpg"
+  },
+  {
+    "imgSrc":"/unique/images/king5.jpg"
+  }
+  ,
+  {
+    "imgSrc":"/unique/images/king6.jpg"
+  }
+  ,
+  {
+    "imgSrc":"/unique/images/king7.jpg"
+  }
+]
+
+
 }
