@@ -1,4 +1,4 @@
-﻿var homeTpl = require('../tpl/home.string');
+var homeTpl = require('../tpl/home.string');
 SPA.defineView('home',{
 	html:homeTpl,
 	plugins: ['delegated', {
@@ -16,8 +16,9 @@ SPA.defineView('home',{
 		'show':function(){
 			var vm = this.getVM();
 			$.ajax({
-				//url: '/api/getlivelist.php',
-				url: '/unique/mock/livelist.json',
+				// url: '/api/getlivelist.php',
+				 url: '/unique/mock/livelist.json',
+
 				success: function (res) {
 					var data = res.data;
 					var tempArr = [];
