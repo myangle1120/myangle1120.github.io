@@ -27,8 +27,8 @@ SPA.defineView('detail',{
 				}
 			});
 			$.ajax({
-				// url: '/api/getlivelist.php',
-				 url: '/unique/mock/livelist.json',
+				//url: '/api/getlivelist.php',
+url: '/unique/mock/livelist.json',
 				success: function (res) {
 					var data = res.data1;
 					var tempArr = [];
